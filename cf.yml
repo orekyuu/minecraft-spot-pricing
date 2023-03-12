@@ -575,6 +575,9 @@ Resources:
           - ContainerPort: 25565
             HostPort: 25565
             Protocol: tcp
+          - ContainerPort: 8123
+            HostPort: 8123
+            Protocol: tcp
           LogConfiguration:
             !If
             - LogGroupNameProvided
